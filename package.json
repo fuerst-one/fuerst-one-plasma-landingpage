@@ -1,0 +1,51 @@
+{
+  "name": "fuerst-one-plasma-landingpage",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Alexander Fuerst <alexander@fuerst.one>",
+  "scripts": {
+    "dev": "next dev --port 4773",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "eslint": "eslint . --ext .ts",
+    "eslint:fix": "eslint . --ext .ts --fix",
+    "pre-commit": "yarn eslint:fix && yarn prettier:fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@tw-classed/react": "^1.6.1",
+    "clsx": "^2.1.1",
+    "color": "^4.2.3",
+    "lodash": "^4.17.21",
+    "next": "^13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-merge": "^2.5.2",
+    "utf-8-validate": "^6.0.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@types/color": "^3.0.6",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "20.2.4",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "@types/qrcode": "^1.5.5",
+    "@types/wpapi": "^1.1.4",
+    "autoprefixer": "10.4.14",
+    "encoding": "^0.1.13",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.1.0",
+    "postcss": "8.4.23",
+    "prettier": "^3.1.0",
+    "sass": "^1.69.5",
+    "tailwindcss": "3.3.2",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "5.0.4"
+  }
+}
